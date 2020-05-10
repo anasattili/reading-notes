@@ -120,7 +120,7 @@ CSS properties can be categorized in two types:
 
 ## Basic JavaScript Instructions
 
-### Commints:
+### Comments:
 * Single line comments start with //.
 Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
 * Multi-line comments start with /* and end with */.
@@ -128,24 +128,24 @@ Any text between /* and */ will be ignored by JavaScript.
 
 ### Variables:
 JavaScript Variable
-Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime.
-JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. You can assign a value to a variable using equal to (=) operator when you declare it or before using it.
-Syntax:
-var `<variable-name>;`
-var `<variable-name> = <value>;`
-Example: Variable Declaration & Initialization
-var one = 1; // variable stores numeric value
-var two = 'two';  // variable stores string value
-var three;  // declared a variable without assigning a value
-In the above example, we have declared three variables using var keyword: one, two and three. We have assigned values to variables one and two at the same time when we declared it, whereas variable three is declared but does not hold any value yet, so it's value will be 'undefined'.
-Declare Variables in a Single Line
-Multiple variables can also be declared in a single line separated by comma.
+* Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime.
+* JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. You can assign a value to a variable using equal to (=) operator when you declare it or before using it.
+* Syntax:
+* var `<variable-name>;`
+* var `<variable-name> = <value>;`
+* Example: Variable Declaration & Initialization
+* var one = 1; // variable stores numeric value
+* var two = 'two';  // variable stores string value
+* var three;  // declared a variable without assigning a value
+> In the above example, we have declared three variables using var keyword: one, two and three. We have assigned values to variables one and two at the same time when we declared it, whereas variable three is declared but does not hold any value yet, so it's value will be 'undefined'.
+* Declare Variables in a Single Line
+* Multiple variables can also be declared in a single line separated by comma.
 
 ### Data Types:
 JavaScript variables can hold many data types: numbers, strings, objects, Booleans.
-`var length = 16;`                               // Number
-`var lastName = "Johnson";`                      // String
-`var x = {firstName:"John", lastName:"Doe"};`    // Object
+* `var length = 16;`                               // Number
+* `var lastName = "Johnson";`                      // String
+* `var x = {firstName:"John", lastName:"Doe"};`    // Object
 Booleans can only have two values: true or false.
 The Concept of Data Types
 In programming, data types is an important concept.
@@ -174,51 +174,51 @@ This statement accesses the value of the first element in cars:
 
 
 ### Operators:
-`+	Addition`
-`-	Subtraction`
-`*	Multiplication`
-`**	Exponentiation`
-`/	Division`
-`%	Modulus (Division Remainder)`
-`++	Increment`
-`--	Decrement`
-`x = y	x = y`
-`+=	x += y	x = x + y`
-`-=	x -= y	x = x - y`
-`*=	x *= y	x = x * y`
-`/=	x /= y	x = x / y`
-`%=	x %= y	x = x % y`
-`**=	x **= y	x = x ** y`
+* `+	Addition`
+* `-	Subtraction`
+* `*	Multiplication`
+* `**	Exponentiation`
+* `/	Division`
+* `%	Modulus (Division Remainder)`
+* `++	Increment`
+* `--	Decrement`
+* `x = y	x = y`
+* `+=	x += y	x = x + y`
+* `-=	x -= y	x = x - y`
+* `*=	x *= y	x = x * y`
+* `/=	x /= y	x = x / y`
+* `%=	x %= y	x = x % y`
+* `**=	x **= y	x = x ** y`
 * JavaScript String Operators
 The + operator can also be used to add (concatenate) strings.
 Example
-`var txt1 = "John";`
-`var txt2 = "Doe";`
-`var txt3 = txt1 + " " + txt2;`
+* `var txt1 = "John";`
+* `var txt2 = "Doe";`
+* `var txt3 = txt1 + " " + txt2;`
 
 ### Decisions and Loops
 
 ## Coprarison condition:
-Given that `x = 5`
-`==	equal to	x == 8	false`	
-`x == 5	true`	
-`x == "5"	true`	
-`===	equal value and equal type	x === 5	true`	
-`x === "5"	false`	
-`!=	not equal	x != 8	true`	
-`!==	not equal value or not equal type	x !== 5	false`
-`x !== "5"	true`	
-`x !== 8	true`	
-`>	greater than	x > 8	false`	
-`<	less than	x < 8	true`	
-`>=	greater than or equal to	x >= 8	false`	
-`<=	less than or equal to	x <= 8	true`
+* Given that `x = 5`
+* `==	equal to	x == 8	false`	
+* `x == 5	true`	
+* `x == "5"	true`	
+* `===	equal value and equal type	x === 5	true`	
+* `x === "5"	false`	
+* `!=	not equal	x != 8	true`	
+* `!==	not equal value or not equal type	x !== 5	false`
+* `x !== "5"	true`	
+* `x !== 8	true`	
+* `>	greater than	x > 8	false`	
+* `<	less than	x < 8	true`	
+* `>=	greater than or equal to	x >= 8	false`	
+* `<=	less than or equal to	x <= 8	true`
 
 ### Logical Operators:
-Given that `x = 6` and `y = 3`:
-`&&	and	(x < 10 && y > 1) is true`	
-`||	or	(x == 5 || y == 5) is false`	
-`!	not	!(x == y) is true`
+* Given that `x = 6` and `y = 3`:
+* `&&	and	(x < 10 && y > 1) is true`	
+* `||	or	(x == 5 || y == 5) is false`	
+* `!	not	!(x == y) is true`
 
 ### Conditional Statements:
 Very often when you write code, you want to perform different actions for different decisions.
@@ -227,7 +227,7 @@ In JavaScript we have the following conditional statements:
 * Use `if` to specify a block of code to be executed, if a specified condition is true.
 * Use `else` to specify a block of code to be executed, if the same condition is false.
 * Use `else if` to specify a new condition to test, if the first condition is false.
-Examples:
+* Examples:
 * `if (hour < 18) { greeting = "Good day";}`
 
 * `if (hour < 18) { greeting = "Good day";}`
