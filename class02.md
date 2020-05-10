@@ -198,7 +198,7 @@ Example
 
 ### Decisions and Loops
 
-## Coprarison condition:
+## Comparison condition:
 * Given that `x = 5`
 * `==	equal to	x == 8	false`	
 * `x == 5	true`	
