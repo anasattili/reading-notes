@@ -125,7 +125,7 @@ hsl(hue, saturation, lightness)
 properity |  Description
 ---------|---------
  `text-align` | property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.
- `direction` and `unicode-bidi` properties can be used to change the text direction of an element
+ `direction` and `unicode-bidi`| properties can be used to change the text direction of an element
  `vertical-align`|  property sets the vertical alignment of an element. This example demonstrates how to set the vertical alignment of an image in a text
 `text-decoration`|  property is used to set or remove decorations from text.
  `text-transform`| property is used to specify uppercase and lowercase letters in a text. It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word
