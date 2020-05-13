@@ -120,6 +120,8 @@ hsl(hue, saturation, lightness)
 * ` background-color: lightgrey;`
 *  `color: blue;}`
 
+
+
 properity |  Description
 ---------|---------
  `text-align` | property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.
