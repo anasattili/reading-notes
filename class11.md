@@ -1,12 +1,12 @@
 # Read: 11 - Assorted Topics
 
 ## Images
-**controlling the size of image in css**
+**Controlling the size of image in css**
 * `img {`
 *    `max-width:100%;`
 *    `height:auto;}`
 
-**controlling the size of image in css**
+**Controlling the Align of Image in css**
 * `img.align-left {`
 * `float: left;`
 * `margin-right: 10px;}`
@@ -17,10 +17,10 @@
 * `width: 250px;`
 * `height: 250px;}`
 
-**Background-imagies**
+**Background-Imagies**
 * `body { background-image: url("images/pattern.gif");}`
 
-**Reaapeated imagies**
+**Reapeated Imagies**
 * `body {`
 * `background-image: url("images/header.gif");`
 * `background-repeat: repeat-x;}`
@@ -79,12 +79,12 @@ Name the file "somefilename.swf". Choose the location where the file is to be st
 * Step 4
 Open the HTML page where you want to insert your Flash movie. Insert this code:
 
-`code:`
-`<object width="550" height="400">`
-`<param name="movie" value="somefilename.swf">`
-`<embed src="somefilename.swf" width="550" height="400">`
-`</embed>`
-`</object>`
+* `code:`
+* `<object width="550" height="400">`
+* `<param name="movie" value="somefilename.swf">`
+* `<embed src="somefilename.swf" width="550" height="400">`
+* `</embed>`
+* `</object>`
 
 > Note: This is the minimum code you need to embed a Flash movie in a browser. A broken icon will appear on the Web page if the user does not have the Flash plug-in installed.
 
